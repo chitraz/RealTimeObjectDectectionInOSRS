@@ -7,9 +7,7 @@ AIM: Real-time detection of various NPCs inside [Old School RuneScape](https://w
 
 The game runs natively at 50 FPS, so the we have a window of 20ms between each fame to make the predction. 
 
-
-
-## Catagories to detect
+Catagories to detect
 
 
 ## Data collection and anotation
