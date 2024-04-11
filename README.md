@@ -9,6 +9,10 @@ The game runs natively at 50 FPS, so the we have a window of 20ms between each f
 
 Catagories to detect: 
 
+What detection model to use? 
+  - Faster-RCNN
+  - Single Shot Detector (SSD) with mobileNet backbone
+  - YOLOV5, YOLOV8
 
 ## Data collection and anotation
 
