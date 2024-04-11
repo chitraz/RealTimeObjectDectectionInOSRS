@@ -1,6 +1,6 @@
 # Real-time Object Dectection In OSRS
 
-AIM: Real-time detection (classification + localization) of various NPCs inside [Old School RuneScape](https://www.oldschool.runescape.com/)(video game)
+AIM: Real-time detection of various NPCs inside [Old School RuneScape](https://www.oldschool.runescape.com/)(video game)
 
 
 ## Requirements 
@@ -16,5 +16,14 @@ What detection model to use?
 
 ## Data collection and anotation
 
+| Class | count |
+|--|:--:|
+
+
+## Training 
+
+  - fine-tuning from pre-train (on MSCOCO?) weights
+  - Try using weights only form earlier layers (Natural Images -> Virtual Game Images)
+  - 
 
 
