@@ -12,7 +12,7 @@ Catagories to detect?
 ## TODO:
 
 ### Data collection and anotation
-- Using botting techniques to read the object info directly from the game to automate the labeling process!
+- Use botting techniques to read the object info directly from the game to automate the labeling process!
     - java injection? openGL hook? 
 
 ### Training 
