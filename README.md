@@ -1,10 +1,10 @@
 # Real-time Object Dectection In OSRS
 
-AIM: Real-time detection of (scope? NPCs, game items, UI ) inside [Old School RuneScape](https://www.oldschool.runescape.com/) (video game). 
+AIM: Real-time detection of (scope?  ) inside [Old School RuneScape](https://www.oldschool.runescape.com/) (video game). 
 
 ## Background research
 scope? 
-
+NPCs, game items, UI -> inventory, map, chat box -> text data
 
 ## Requirements 
 
