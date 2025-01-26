@@ -1,12 +1,17 @@
 # Real-time Object Dectection In OSRS
 
-AIM: Real-time detection of various NPCs inside [Old School RuneScape](https://www.oldschool.runescape.com/) (video game). 
+AIM: Real-time detection of (scope? NPCs, game items, UI ) inside [Old School RuneScape](https://www.oldschool.runescape.com/) (video game). 
+
+## Background research
+scope? 
+
 
 ## Requirements 
 
 The game runs natively at 50 FPS, so the we have a window of 20ms between each fame to make the predction. 
 
 Catagories to detect?
+
 
 
 ## TODO:
