@@ -2,16 +2,16 @@
 
 AIM: Real-time detection of (scope?  ) inside [Old School RuneScape](https://www.oldschool.runescape.com/) (video game). 
 
-## Background research
-scope? 
-NPCs, game items, UI -> inventory, map, chat box -> text data
+
 
 ## Requirements 
 
 The game runs natively at 50 FPS, so the we have a window of 20ms between each fame to make the predction. 
 
 Catagories to detect?
-
+### Background research
+scope? 
+NPCs, game items, UI -> inventory, map, chat box -> text data
 
 
 ## TODO:
