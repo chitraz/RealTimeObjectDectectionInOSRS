@@ -1,6 +1,6 @@
 # Real-time Object Dectection In OSRS
 
-AIM: Real-time detection of various game objects and NPCs inside [Old School RuneScape](https://www.oldschool.runescape.com/) (video game). 
+AIM: Real-time detection of various game objects and NPCs inside [Old School RuneScape](https://www.oldschool.runescape.com/). 
 
 video Demo Here!
 
