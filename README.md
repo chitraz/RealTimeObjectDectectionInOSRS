@@ -2,34 +2,21 @@
 
 AIM: Real-time detection of various game objects and NPCs inside [Old School RuneScape](https://www.oldschool.runescape.com/). 
 
-video Demo Here!
 
 
-## Requirements 
+## Data Collection
+The detection data is collected using a DreamBot script to: 
+    - walk in a given path 
+    - random camera view
+    - get annotations (BBoxes, names, UIDs) for all entities in view 
+    - save game client image and annotations
 
-The game runs natively at 50 FPS, so the we have a window of 20ms between each fame to make the predction. 
+## Training 
+Fine-tunning a MS-COCO pretrained YOLO11n model from Ultralytics 
 
-Catagories to detect?
-### Background research
-scope? 
-NPCs, game items, UI -> inventory, map, chat box -> text data
-
-
-## TODO:
-
-### Data collection and anotation
-- Use botting techniques to read the object info directly from the game to automate the labeling process!
-    - java injection? openGL hook? 
-
-### Training 
-
-What detection model to use? 
-  - Faster-RCNN
-  - Single Shot Detector (SSD)
-  - YOLOV5, YOLOV8
-
-  - fine-tuning from pre-train (on MSCOCO?) weights
-    - Natural images -> virtual images   
+## TODO:    
+ - Clean dataset: occlusion  
+ - export ONNX model and run inference using onnxruntime
 
 
 
