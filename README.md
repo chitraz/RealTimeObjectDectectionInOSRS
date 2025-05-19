@@ -1,22 +1,18 @@
 # Real-time Object Dectection In OSRS
 
-AIM: Real-time detection of various game objects and NPCs inside [Old School RuneScape](https://www.oldschool.runescape.com/). 
+The goal is the real-time detection of various game objects and NPCs inside [Old School RuneScape](https://www.oldschool.runescape.com/).
+
+This repo contains: 
+    - Dreambot script written to collect detection data from the game
+    - Jupyter Notebooks to prepare the dataset, fine-tune a MS-COCO pretrained YOLO11m model and export it as an onnx model
+    - Python script to select a screen region and run detection on it using onnxruntime
+
+## Running
 
 
-
-## Data Collection
-The detection data is collected using a DreamBot script to: 
-    - walk in a given path 
-    - random camera view
-    - get annotations (BBoxes, names, UIDs) for all entities in view 
-    - save game client image and annotations
-
-## Training 
-Fine-tunning a MS-COCO pretrained YOLO11n model from Ultralytics 
 
 ## TODO:    
- - Clean dataset: occlusion  
- - export ONNX model and run inference using onnxruntime
+ - Clean dataset: occlusion 
 
 
 
