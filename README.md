@@ -7,7 +7,14 @@ This repo contains:
   - Jupyter Notebooks to prepare the dataset, fine-tune a MS-COCO pretrained YOLO11m model and export it as an onnx model
   - Python script to select a screen region and run detection on it using onnxruntime
 
+
 ## Running
+
+
+```
+pip install -r requirements.txt
+
+```
 
 ```
 python scripts/Detection_onnx.py
