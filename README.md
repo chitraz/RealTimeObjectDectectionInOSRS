@@ -9,6 +9,9 @@ This repo contains:
 
 ## Running
 
+'''
+python scripts/Detection_onnx.py
+'''
 
 
 ## TODO:    
