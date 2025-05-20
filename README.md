@@ -1,6 +1,6 @@
 # Real-time Object Dectection In OSRS
 
-The goal is the real-time detection of various game objects and NPCs inside [Old School RuneScape](https://www.oldschool.runescape.com/).
+The goal is the real-time detection of various game objects and NPCs inside [Old School RuneScape](https://www.oldschool.runescape.com/). The dectection categories consists of 3 types of cow NPCs ('Cow','Cow_calf', 'Dairy_cow'), 5 types of trees ('Tree','Evergreen_tree','Oak_tree','Willow_tree','Yew_tree'), 3 game objects from the scenery ('Plant','Daisies','Thistle') and 9 types of mine rocks ('Rocks','Copper_rocks','Tin_rocks','Silver_rocks','Iron_rocks','Coal_rocks', 'Gold_rocks', 'Mithril_rocks', 'Adamantite_rocks'). 
 
 This repo contains:
   - Dreambot script written to collect detection data from the game
