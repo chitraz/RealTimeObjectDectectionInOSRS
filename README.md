@@ -7,9 +7,9 @@ The goal is the real-time detection of various game objects and NPCs inside [Old
   - 10 types of mine rocks (***Rocks, Copper_rocks, Tin_rocks, Silver_rocks, Iron_rocks, Coal_rocks, Gold_rocks, Mithril_rocks, Adamantite_rocks, Clay_rocks***)
 
 This repo contains:
-  - Dreambot script written to collect detection data from the game client []()
-  - Jupyter Notebooks to prepare the dataset and fine-tune a MS-COCO pretrained YOLO11m model
-  - Python script to select a screen region and run detection on it using trained model
+  - Dreambot script written to collect detection data from the game client ([DataBot.java](scripts/DataBot.java))
+  - Jupyter Notebooks to prepare the dataset ([OSRS DATASET.ipynb](notebooks/OSRS_DATASET.ipynb)) and fine-tune a MS-COCO pretrained YOLO11m model ([Yolo11n_finetune.ipynb](notebooks/Yolo11_finetune.ipynb))
+  - Python script to select a screen region and run detection on it using trained model ([Detection.py](scripts/Detection.py))
 
 ## Training
 [yolo11](https://github.com/ultralytics/ultralytics/blob/main/docs/en/models/yolo11.md)
@@ -29,7 +29,7 @@ python scripts/Detection.py
 
 ## To Do:    
 
-### 1) Clean dataset:
+### 1) Clean dataset
 
 The main concern for the osrs data is occlusion which can occur from objects behind walls or other objects. 
 
@@ -43,5 +43,6 @@ The main concern for the osrs data is occlusion which can occur from objects beh
 
 ### 2) Effcient inference on the CPU using onnxruntime
 
-### 3) Instance segemnataion:
+### 3) Instance segemnataion
+
 
