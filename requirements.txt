@@ -1,0 +1,10 @@
+numpy==2.2.6
+onnx==1.17.0
+onnxruntime_gpu==1.19.2
+opencv_python==4.11.0.86
+Pillow==11.2.1
+PyAutoGUI==0.9.54
+pyscreenshot==3.1
+torch==2.6.0+cu118
+torchvision==0.21.0+cu118
+ultralytics==8.3.109
