@@ -1,6 +1,6 @@
 # Real-time Object Dectection In OSRS
 
-The goal is the real-time detection of various game objects and NPCs inside [Old School RuneScape](https://www.oldschool.runescape.com/). <br> The dectection categories consists of:
+The goal is the real-time detection of various game objects and NPCs inside [Old School RuneScape](https://www.oldschool.runescape.com/). The dectection categories consists of:
   - 3 types of cow NPCs (***Cow, Cow_calf, Dairy_cow***)
   - 5 types of trees (***Tree, Evergreen_tree, Oak_tree, Willow_tree, Yew_tree***)
   - 3 game objects from the scenery (***Plant, Daisies, Thistle***)
@@ -34,7 +34,7 @@ python scripts/Detection.py
 The main concern for the osrs data is occlusion which can occur from objects behind walls or other objects. 
 
 
-  - detect occlusion during data collection by the bot
+  - detect occlusion during data collection
     or 
   - post-processing:
        - feedforward entire dataset through trained model and inspect quality of annoations with low confidence.  
