@@ -8,7 +8,7 @@ The goal is the real-time detection of various game objects and NPCs inside [Old
 
 This repo contains:
   - Dreambot script written to collect detection data from the game client ([DataBot.java](scripts/DataBot.java))
-  - Jupyter Notebooks to prepare the dataset ([OSRS DATASET.ipynb](notebooks/OSRS_DATASET.ipynb)) and fine-tune a MS-COCO pretrained YOLO11m model ([Yolo11n_finetune.ipynb](notebooks/Yolo11_finetune.ipynb))
+  - Jupyter Notebooks to prepare the dataset ([OSRS DATASET.ipynb](notebooks/OSRS_DATASET.ipynb)) and fine-tune a MS-COCO pretrained YOLO11m model ([Yolo11_finetune.ipynb](notebooks/Yolo11_finetune.ipynb))
   - Python script to select a screen region and run detection on it using trained model ([Detection.py](scripts/Detection.py))
 
 ## Training
