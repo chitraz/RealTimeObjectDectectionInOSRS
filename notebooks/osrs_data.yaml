@@ -1,0 +1,28 @@
+# images and annotation paths
+path: /home/chitraz/Documents/Projects/RealTimeODinOSRS/dataset # dataset root dir
+train: train/images
+val: val/images
+
+# classes
+names:
+  0: Cow
+  1: Cow_calf
+  2: Dairy_cow
+  3: Tree
+  4: Evergreen_tree
+  5: Oak_tree
+  6: Willow_tree
+  7: Yew_tree
+  8: Plant
+  9: Daisies
+  10: Thistle
+  11: Rocks
+  12: Copper_rocks
+  13: Tin_rocks
+  14: Silver_rocks
+  15: Iron_rocks
+  16: Coal_rocks
+  17: Gold_rocks
+  18: Mithril_rocks
+  19: Adamantite_rocks
+  20: Clay_rocks
