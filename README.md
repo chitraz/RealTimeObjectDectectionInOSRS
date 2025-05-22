@@ -58,6 +58,6 @@ The main concern for the collected data is occlusion, see example:<br>
 
 ### 2) Efficient inference on the CPU using onnxruntime
 
-### 3) Instance segemnataion
+### 3) Instance segmentation
 
 
