@@ -23,7 +23,8 @@ A [DreamBot](https://dreambot.org/guides/scripter-guide/starting/#4-keep-learnin
 https://github.com/user-attachments/assets/86fab115-05d8-4676-a4bc-37c928759584
 
 <br>
-A subset of 21 classes is taken from the collected data and a 80/20 train/valid slpit is done. On which a YOLO11n model, from [Ultralytics](https://github.com/ultralytics/ultralytics/blob/main/docs/en/models/yolo11.md) , is trained, achieving about ***84% mAP@50*** on the validation set. See [results](notebooks/runs/detect/train3) for more detail on training. The training set has 9368 images and validation set has 2296 iamges with the class instance counts as such:
+
+A subset of 21 classes is taken from the collected data and a 80/20 train/valid slpit is done. On which a YOLO11n model, from [Ultralytics](https://github.com/ultralytics/ultralytics/blob/main/docs/en/models/yolo11.md) , is trained, achieving about **84%** **mAP@50** on the validation set. See [results](notebooks/runs/detect/train3) for more detail on training. The training set has 9368 images and validation set has 2296 iamges with the class instance counts as such:
 <br> <br>
 <img src="https://github.com/user-attachments/assets/8a4adc28-d42e-458a-b652-50028676138a" width="380" />
 <img src="https://github.com/user-attachments/assets/e22068b9-64c6-40e6-a0e3-d97c62db8a21" width="372.5" />
