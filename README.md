@@ -16,8 +16,8 @@ This repo contains:
 <br>
 The training set has 9368 images and validation set has 2296 iamges with the class instance counts as such:
 <br>
-<img src="https://github.com/user-attachments/assets/8a4adc28-d42e-458a-b652-50028676138a" width="430" />
-<img src="https://github.com/user-attachments/assets/e22068b9-64c6-40e6-a0e3-d97c62db8a21" width="422.5" />
+<img src="https://github.com/user-attachments/assets/8a4adc28-d42e-458a-b652-50028676138a" width="330" />
+<img src="https://github.com/user-attachments/assets/e22068b9-64c6-40e6-a0e3-d97c62db8a21" width="322.5" />
 <br>
 
 ## Running
