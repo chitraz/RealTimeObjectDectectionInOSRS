@@ -140,7 +140,7 @@ if __name__ == '__main__':
     # --------------------------------------------------------------------
 
     # load our trained yolo11n model
-    model = YOLO("saves/yolo11m_osrs_21c.pt")
+    model = YOLO("saves/yolo11n_osrs_21c.pt")
 
     loop_time = time.time()
     while(True):
