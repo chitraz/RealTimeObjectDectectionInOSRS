@@ -13,6 +13,12 @@ This repo contains:
 
 ## Training
 [yolo11](https://github.com/ultralytics/ultralytics/blob/main/docs/en/models/yolo11.md)
+<br>
+The training set has 9368 images and validation set has 2296 iamges with the class instance counts as such:
+<br>
+<img src="https://github.com/user-attachments/assets/8a4adc28-d42e-458a-b652-50028676138a" width="430" />
+<img src="https://github.com/user-attachments/assets/e22068b9-64c6-40e6-a0e3-d97c62db8a21" width="422.5" />
+<br>
 
 ## Running
 
@@ -32,6 +38,8 @@ python scripts/Detection.py
 ### 1) Clean dataset
 
 The main concern for the osrs data is occlusion which can occur from objects behind walls or other objects. 
+![Screenshot from 2025-05-22 13-15-36](https://github.com/user-attachments/assets/ad6cf8dc-9562-4e1c-8f73-7c8a80b33f3d)
+![Screenshot from 2025-05-22 13-16-17](https://github.com/user-attachments/assets/ac1c1ab0-9a09-4f03-aa31-4d680ead1706)
 
 
   - detect occlusion during data collection
