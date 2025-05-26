@@ -13,11 +13,11 @@ https://github.com/user-attachments/assets/6ff7f330-9faf-402e-bb35-497be3410ffa
 
 This repo contains:
   - Dreambot script written to collect detection data from the game client ([DataBot.java](scripts/DataBot.java))
-  - Jupyter Notebooks to prepare the dataset ([OSRS DATASET.ipynb](notebooks/OSRS_DATASET.ipynb)) and fine-tune a MS-COCO pretrained YOLO11m model ([Yolo11_finetune.ipynb](notebooks/Yolo11_finetune.ipynb))
-  - Python script to select a screen region and run detection on it using trained model ([Detection.py](scripts/Detection.py))
+  - Jupyter Notebooks to prepare the dataset ([OSRS DATASET.ipynb](notebooks/OSRS_DATASET.ipynb)) and fine-tune a MS-COCO pretrained YOLO11n model ([Yolo11_finetune.ipynb](notebooks/Yolo11_finetune.ipynb))
+  - Python script to select a screen region and run detection on it using the trained model ([Detection.py](scripts/Detection.py))
 
 ## Data Collection and Training
-A [DreamBot](https://dreambot.org/guides/scripter-guide/starting/#4-keep-learning) script is created to automate the data collection and annotation process. The bot walks in a given path, sets a random camera angle/zoom and saves a 520x340 screenshot image from the game. Annotations (box + segmentaion shapes) are computed and saved for all game enities (NPCs, GameObjects, GroundItems and Players) in view. *(note that it only checks if an entity is in the 520x340 viewport. Checking if an entity is acually visible, and not fully occulled, is hard!)* 
+A [DreamBot](https://dreambot.org/guides/scripter-guide/starting/#4-keep-learning) script is created to automate the data collection and annotation process. The bot walks in a given path, sets a random camera angle/zoom and saves a 520x340 screenshot image from the game. Annotations (box + segmentaion shapes) are computed and saved for all game enities (NPCs, GameObjects, GroundItems and Players) in view. *(note that it only checks if an entity is in the 520x340 viewport. Checking if an entity is actually visible, and not fully occulled, is hard!)* 
 <br> 
 
 https://github.com/user-attachments/assets/86fab115-05d8-4676-a4bc-37c928759584
