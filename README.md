@@ -1,6 +1,6 @@
-# Real-time Object Dectection In OSRS
+# Real-time Object Detection In OSRS
 
-The goal is the real-time detection of various game objects and NPCs inside [Old School RuneScape](https://www.oldschool.runescape.com/). The dectection categories consists of:
+The goal is the real-time detection of various game objects and NPCs inside [Old School RuneScape](https://www.oldschool.runescape.com/). The detection categories consists of:
   - 3 types of cow NPCs (***Cow, Cow_calf, Dairy_cow***)
   - 5 types of trees (***Tree, Evergreen_tree, Oak_tree, Willow_tree, Yew_tree***)
   - 3 game objects from the scenery (***Plant, Daisies, Thistle***)
